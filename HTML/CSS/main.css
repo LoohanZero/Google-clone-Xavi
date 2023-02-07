@@ -1,0 +1,137 @@
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    /* width: 450px;
+    height: 40px; */
+    border: none;
+    outline: none;
+    width: 525px;
+    height: 43px;
+    border-radius: 100px;
+    border: 1px solid #d4d0d1;
+}
+
+main .main-input input:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-button {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-button div {
+    display: inline-block;
+}
+
+main .main-button button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-button button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #0000;
+    color: #5f6368;
+}
+
+.idiomas-ofrecidos {
+    color: #5f6368;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+span {
+    color: var(--language-text-color);
+}
+
+.footer .footer-country p {
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+    color: #5f6368;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: var(--footer-bg-color);
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
